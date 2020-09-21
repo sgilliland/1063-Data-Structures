@@ -23,9 +23,9 @@ string isWinnerFound(char[][3], char); // finds overall winner
 int main()
 {
 	ifstream in; // opens the input file
-	in.open("tic.dat");
+	in.open("in.dat");
 	ofstream out; // opens the output file
-	out.open("Gilliland_Sarah_tictactoe.txt");
+	out.open("tictactoe.txt");
 
 	out << "Sarah Gilliland\n\n";
 	char game[3][3]; // declaring gameboard array
